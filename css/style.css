@@ -1,0 +1,181 @@
+/**Pacific Trails Resort Css Starts Here**/
+.copy_sec a {
+    color: #000;
+    text-decoration: none;
+}
+body {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+.banner_Row {
+    background: url(../img/banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;    
+}
+.header_Section {
+    width: 100%;
+}
+.logo_Sec {
+    width: 40%;
+    float: left;
+}
+.menu_Sec {
+    width: 60%;
+    float: left;
+    text-align: right;
+    font-family: 'Playfair Display', serif;
+    padding-top: 3%;
+}
+.menu_Sec a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 2%;
+}
+.header_Section {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.banner_Text {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 11% 0;
+}
+.banner_Text h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.banner_Text h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 40px;
+}
+.banner_Text h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 148px;
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 190px;
+}
+.dash_Line {
+    background: #fff;
+    height: 2px;
+    width: 8%;
+    margin-bottom: 2%;
+}
+.second_Section {
+    background: #FFFFFF;
+}
+.Com_gal {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    padding: 5% 0;
+}
+.Com_Text {
+    width: 60%;
+    float: left;
+    padding-top: 2%;
+}
+.Com_Img {
+    width: 40%;
+    float: left;
+}
+.Com_Img img {
+	width: 100%;
+}
+.footer_Section {
+    background: #F6F6F6;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+    padding: 2%;
+    text-align: center;
+}
+.cont_Tex {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.contact_Sec {
+    background: url(../img/contact.png);
+    background-size: 100%;
+    padding: 2%;
+    background-repeat: no-repeat;
+}
+.cont_Tex strong {
+    font-weight: 900;
+}
+.cont_Tex a {
+    color: #236791;
+    text-decoration: none;
+}
+
+/******/
+.banner_Row_yurts {
+    background: url(../img/yurts.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0 0 20% 0;
+}
+.table_yurts {
+    margin: 5% 0 0 0;
+}
+.table_yurts table {
+    margin: 0 auto;
+    border: solid thin;
+    width: 90%;
+    padding: 1%;
+}
+.table_yurts tr:nth-child(1) {
+    background: #F6F6F6;
+}
+.table_yurts td {
+	text-align: center;
+}
+.reward_Section img {
+    width: 100%;
+}
+/**Pacific Trails Resort Css Ends Here**/
+
+/***MQ***/
+@media all and (min-width:0px) and (max-width: 800px){
+.Com_Text {
+    width: 100% !important;
+}
+.banner_Text {
+    padding: 7% 0 5% 0 !important;
+}
+.banner_Text h2 {
+    font-size: 36px !important;
+    line-height: 30px !important;
+}
+.banner_Text h1 {
+    font-size: 100px !important;
+    line-height: 100px !important;
+}
+.Com_Img {
+    width: 100%;
+    float: left;
+}
+.banner_Row_yurts {
+    padding: 0 0 15% 0 !important;
+}
+}
+
